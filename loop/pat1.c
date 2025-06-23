@@ -1,16 +1,17 @@
-// **** 
-// **** 
-// **** 
-// **** 
+// ****
+// ****
+// ****
+// ****
 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    for(int i =0;i<4;i++)
+    int n = 4;
+    for (int i = 0; i < n; i++)
     {
-        for(int k=0;k<4;k++)
-            printf("*");
+        for (int k = 0; k < n; k++)
+            printf("* ");
         printf("\n");
     }
-return 0;
+    return 0;
 }
